@@ -1,0 +1,5 @@
+// resources/sass/custom.scss
+$primary: #dc3545 ; // Surcharge la couleur primaire
+
+// Assure-toi d'importer les fichiers Bootstrap après la surcharge des variables
+@import "~bootstrap/scss/bootstrap";

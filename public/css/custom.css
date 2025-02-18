@@ -1,0 +1,21 @@
+.card-header{
+    background-color: #dc3545 !important;
+}
+/* Bouton de soumission (Login) */
+.btn-gradient-primary {
+    background-color: #dc3545 !important; /* Rouge */
+    border: 1px solid #dc3545 !important; /* Bordure rouge */
+    color: white !important;
+}
+
+.btn-gradient-primary:hover {
+    background-color: white !important; /* Rouge foncé au survol */
+    color: #c82333 !important; /* Bordure rouge foncé */
+}
+.hover-effect {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.hover-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
